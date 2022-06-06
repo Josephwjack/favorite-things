@@ -9,11 +9,12 @@ $(document).ready(function() {
     
     
     let favThings = [];
-    const greeting = ("nice to meet you")
     favThings.push(nameInput, answer1, answer2, answer3, answer4);
+    let favThings2 =[favThings[1],favThings[3],favThings[2]]
     let list = document.getElementById("myList");
+
   
-    favThings.forEach((item) => {
+    favThings2.forEach((item) => {
       let li = document.createElement("li");
       li.innerText = item;
       list.appendChild(li);
